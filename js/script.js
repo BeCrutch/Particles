@@ -119,6 +119,4 @@ console.log('javascript work!');
 
 	init();
 
-	
-
 }());
