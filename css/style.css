@@ -36,10 +36,15 @@ span {
 }
 
 .modal--input {
+	border: none;
 	width: 100%;	
 }
 
-.modal--bth-wrapp {
-	
-	width: 500px;
+.modal--btn {
+	width: 100%;
+	table-layout: fixed;
+}
+
+td {
+	background-color: #fff;
 }
