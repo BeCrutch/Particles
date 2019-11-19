@@ -1,0 +1,28 @@
+.index-container {
+  //width: 100%;
+  //height: 100vh;
+  //background: #000 url("../img/bgc-index.jpg") center no-repeat;
+  //background-size: cover;
+
+  .header {
+    text-align: center;
+
+    &--link {
+      display: inline-block;
+      padding: 25px;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        & + .list__wrapp {
+          visibility: visible;
+        }
+      }
+    }
+
+    .list__wrapp {
+      position: absolute;
+      //visibility: hidden;
+    }
+  }
+}
